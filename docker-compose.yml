@@ -8,6 +8,5 @@ services:
     env_file:
       - .env
     stop_signal: SIGINT
-
-volumes:
-  - ./logs:/app/logs
+    volumes:
+      - ./logs:/app/logs
